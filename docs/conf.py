@@ -8,12 +8,15 @@ sys.path.insert(0, os.path.abspath('.'))
 
 extensions = [
     'sphinx.ext.githubpages',
+    'sphinx_exts.pylit',
 ]
 
 templates_path = ['_templates']
 source_suffix = '.rst'
 # source_encoding = 'utf-8-sig'
 master_doc = 'index'
+
+code_base = '../code'
 
 # General information about the project.
 project = u'ghClassMgr'
